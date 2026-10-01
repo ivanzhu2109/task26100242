@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "failback"
+version = "0.1.0"
+description = "灾备回切协调库：恢复动作登记、回切请求与状态查询（SQLite 存储）"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["failback"]
